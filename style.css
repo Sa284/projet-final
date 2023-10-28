@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #090351;
+        background-position: center;
+}
+fieldset{
+    
+        width: 420px;
+        background: transparent;
+        border: 2px solid rgb(6, 6, 5);
+        backdrop-filter: blur(20px);
+        box-shadow: 15px 15px 10px rgb(165, 138, 138);
+        color: rgb(239, 241, 245);
+      border-radius: 20px;
+      padding: 30px 40px;
+     
+     
+}
+  h1{
+    font-family: andalus;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+  }
+  hr{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 40%;
+  }
+  ul li {
+    margin-left: 30px;
+    color: white;
+  }
+  #submit{
+    margin: 20px 35px ;
+    color: #e9e7e7;
+    background-color: #333;
+    width: 70%;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 7px;
+
+  }
+  #submit:hover{
+    color: white;
+    background-color: rgb(165, 138, 138);
+}
+
+  input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    margin-left: 10px;
+
+  }

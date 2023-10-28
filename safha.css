@@ -1,0 +1,91 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.h1{
+    float: left;
+    color: rgb(248, 241, 241);
+    font-size:30px;
+    border-radius: 100%;
+    background-color: #aaaaaa;
+ }
+ul{
+    float: right;
+    list-style: none;
+    background-attachment: fixed;
+}
+li{
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(165, 138, 138);
+}
+nav{
+     height: 67px; 
+    background-color: #090351;
+ }
+a{
+    text-decoration: none;
+    color: rgb(165, 138, 138);
+}
+#welcome{height: 570px;
+    background-image: url(https://cdn.leonardo.ai/users/ae48e829-ebe6-4c94-a690-b9336f0152b5/generations/cabac8da-39fe-4023-9a1a-fa599434cb88/DreamShaper_v7_With_a_range_of_styles_and_variations_our_AI_pl_3.jpg?w=512);
+    
+      text-align: center;
+}
+.c1{
+    padding:150px ;
+}
+.h2{
+    font-size: 50px;
+    color: rgb(238, 241, 243);
+    background-color: black;
+
+}
+mark {background-color: black;
+     color: rgb(242, 236, 236);
+  }
+.p1{
+    margin-top: 25px;
+    color: rgb(13, 14, 16);
+    font-size: 25px;
+    font-family: Impact, fantasy;
+ 
+}
+/* section2 */
+body{
+    background:  rgb(165, 138, 138);
+
+}
+.t2{
+    text-align: center;
+    font-size: 40px;
+    color: #090351;
+}
+.img{
+    width: 40%;
+    float: right;
+
+}
+#t4{
+     color: #090351;
+     font-size: 40px;
+     text-align: center;
+     text-align: center;
+ 
+}
+.img1{
+    height: 420px;
+    width: 540px;
+}
+ 
+.c2{
+    width: 60%;
+    float: left;
+}
+footer{
+    background-color:  #090351;
+    color: white;
+    height: 40px;
+    text-align: center;
+}

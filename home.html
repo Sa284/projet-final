@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--CSS-link-->
+<link rel="stylesheet" href="home.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-69vv9jhQmV57vnri8OKCU0N5F85/6W1fFSjd349lyC5z7PViFNNCA4qOz12qc4pAcBIEJfCBjSDriy023suLtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <script>
+        function submitForm() {
+          var searchTerm = document.getElementById('search').value;
+          // Perform any desired processing with the search term here
+          // You can use searchTerm to make an AJAX call or redirect to the search results page
+          // For example:
+          // window.location.href = '/votre-page-de-recherche?search=' + searchTerm;
+          document.getElementById('searchForm').submit(); // Submit the form
+        }
+      </script>
+
+    <header>
+        <h1 class="h1">T-ShirtTrove</h1>
+        <a href="#" class="logo">
+         
+    </a> 
+     
+      <form id="searchForm" action="/votre-page-de-recherche" method="get">
+        <input type="text" id="search" 
+        name="search" placeholder="search for a product, brand or category">
+        <button type="button" onclick="submitForm()" id="btn1">Research</button>
+      </form>
+     <nav>
+        <ul class="navmenu">
+            <li><a href="" id="L1">store</a></li>
+        
+            <li><a href="#trending" id="L2">shop</a></li>
+             <li><a href="Update-news" id="L4">Docs</a></li>
+        
+        </ul>
+     </nav>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="main-home">
+<div id="main-text">
+    <h5>Winter collection</h5>
+<H1> “The New Collecion  <br>
+    Winter 2023”</H1>
+<p>There's Nothing like Trend</p>
+<a href="#" class="main-btn">Shop Now 
+     </a>
+</div>
+ 
+    </section>
+    <!--trending-products-section-->
+    <section class="trending-products"
+     id="trending"> 
+<div class="center-text">
+    <h2>Our Trending <span>
+        Products
+    </span></h2>
+
+</div>
+<div class="Products">
+    <div id="row">
+             
+    <img src="https://vangogh.teespring.com/v3/image/GT5_S3k-RN6bafQI7OmNs2UEdTs/800/800.jpg"
+     id="image1">
+    <div class="product-text">
+<h5>Sale</h5>
+    </div>
+    <div class="heart-icon">
+        <i class='bx bx-heart'></i>
+    </div>
+  <div class="ratting">
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+<i class='bx bxs-star-half'></i>
+</div> 
+<div class="price">
+    <h4>Hoodie Anime Asylum
+    </h4>
+     
+    <p>$38.00
+    </p>
+</div> 
+    </div>
+    <div id="row">
+             
+        <img src="https://vangogh.teespring.com/v3/image/6DuaWL83OyEho9CazObJo2tpZuY/800/800.jpg" id="image1">
+        <div class="product-text">
+    <h5>New</h5>
+        </div>
+        <div class="heart-icon">
+            <i class='bx bx-heart'></i>
+        </div>
+      <div class="ratting">
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+    <i class='bx bxs-star-half'></i>
+    </div> 
+    <div class="price">
+        <h4>Hoodie Anime Alchemy Apparel
+        </h4>
+         
+        <p>$33.00
+        </p>
+    </div> 
+        </div>
+        <div id="row">
+             
+<img src="https://vangogh.teespring.com/v3/image/dyunKSgEiap050GhgWEYjoUrTGc/800/800.jpg" id="image1">
+<div class="product-text">
+        <h5>New</h5>
+            </div>
+<div class="heart-icon">
+                <i class='bx bx-heart'></i>
+            </div>
+          <div class="ratting">
+            <i class='bx bx-star'></i>
+            <i class='bx bx-star'></i>
+            <i class='bx bx-star'></i>
+            <i class='bx bx-star'></i>
+        <i class='bx bxs-star-half'></i>
+        </div> 
+        <div class="price">
+            <h4>Hoodie Kitty Chic
+
+            </h4>
+             
+            <p>$33.00
+            </p>
+</div> 
+</div>
+<div id="row">
+<img src="https://vangogh.teespring.com/v3/image/UdvIbja802Mhk6oSa5MmefvSu0s/800/800.jpg" id="image1">
+<div class="product-text">
+<h5>New</h5>
+</div>
+<div class="heart-icon">
+<i class='bx bx-heart'></i>
+</div>
+<div class="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bxs-star-half'></i>
+</div> 
+<div class="price">
+<h4>Hoodie Inferno Threads
+</h4>
+ <p>$32.00</p>
+</div> 
+</div>
+<div id="row">
+<img src="https://vangogh.teespring.com/v3/image/d89nAHD5u8icJqa4632L39uGO3k/800/800.jpg" id="image1">
+<div class="product-text">
+<h5>Sale</h5>
+</div>
+<div class="heart-icon">
+<i class='bx bx-heart'></i>
+</div>
+<div class="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bxs-star-half'></i>
+</div> 
+<div class="price">
+<h4>Bag Kitty Chick</h4>
+ <p>$15.00
+</p>
+</div> 
+</div>
+<div id="row"> 
+<img src="https://vangogh.teespring.com/v3/image/pkYRrSg0jJIR-Q5rU4N424a6tYE/800/800.jpg" id="image1">
+<div class="product-text">
+ <h5>Sale</h5>
+</div>
+<div class="heart-icon">
+<i class='bx bx-heart'></i>
+</div>
+<div class="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bxs-star-half'></i>
+</div> 
+<div class="price">
+<h4>Comb anime </h4>
+ <p>$10.00</p>
+</div> 
+</div>
+<div id="row">
+<img src="https://vangogh.teespring.com/v3/image/-oyIpeinSN7VksFZtyW5a_3iZlY/800/800.jpg" id="image1">
+<div class="product-text">
+<h5>Sale</h5>
+</div>
+<div class="heart-icon">
+<i class='bx bx-heart'></i>
+</div>
+<div class="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+ <i class='bx bx-star'></i>
+<i class='bx bxs-star-half'></i>
+</div> 
+<div class="price">
+<h4>Cub cute </h4>
+ <p>$8.00</p>
+</div> 
+</div> 
+<div id="row"> 
+    <img src="https://vangogh.teespring.com/v3/image/eVkWaxG09hmC7Tj3mtnXWoTDL64/800/800.jpg" id="image1">
+    <div class="product-text">
+    <h5>Sale</h5>
+    </div>
+    <div class="heart-icon">
+    <i class='bx bx-heart'></i>
+    </div>
+    <div class="ratting">
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bx-star'></i>
+    <i class='bx bxs-star-half'></i>
+    </div> 
+    <div class="price">
+    <h4>Hat Neo-Tokyo Rebel
+    </h4>
+     <p>$20.00</p>
+    </div> 
+    </div> 
+    <div id="row"> 
+        <img src="https://vangogh.teespring.com/v3/image/SF3YyK7FlqnAVcsWhRsKLfAx4pU/800/800.jpg" id="image1">
+        <div class="product-text">
+        <h5>Sale</h5>
+        </div>
+
+        <div class="heart-icon">
+        <i class='bx bx-heart'></i>
+        </div>
+        <div class="ratting">
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bx-star'></i>
+        <i class='bx bxs-star-half'></i>
+        </div> 
+        <div class="price">
+        <h4>Hoodie cute 
+        </h4>
+         <p>$30.00</p>
+        </div> 
+        </div>           
+</div>
+    </section>
+    <!--Client-Review-section-->
+    <section class="client-reviews">
+        <div class="reviews">
+            <h3>Clients Reviews</h3>
+            <img src="https://media.istockphoto.com/id/944138400/fr/photo/jeune-indienne-%C3%A0-londres-exprimer-ses-%C3%A9motions-positives.jpg?s=612x612&w=0&k=20&c=uts3d8zTxXrL0PuCIY2hb58goXkdhNU8AWCsNKngU1w=
+            " alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                 elit. Quas maxime quaerat deleniti, magnam <br>
+                 repudiandae quibusdam eveniet ad nulla eius
+                  accusamus quasi repellat voluptatem quam <br>
+                  distinctio facere nihil fugiat tempora in.
+
+            </p>
+            <h2>Mark Jevenue</h2>
+            <p>CEO of Addle</p>
+        </div>
+    </section>
+    <!--update-news-section-->
+    <section class="Update-news">
+        <div class="up-center-text">
+            <h2>New Updates</h2>
+
+        </div>
+        <div class="update-cart">
+            <div class="cart">
+                <img src=
+                "https://img.freepik.com/photos-gratuite/jeune-femme-faisant-emplettes-pour-vetements_23-2149187294.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697414400&semt=ais
+                " alt="">
+                <h5>25 jan 2022</h5>
+                <h4>Let's Start bring sale on this summer vacation.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error dicta saepe iste officia voluptas eum adipisci sunt officiis! Libero, rerum. Nisi rem tenetur a asperiores corrupti, pariatur quam vitae.
+
+        </p>
+        <h6>Continue Reading...</h6>
+            </div>
+            <div class="cart">
+                <img src="https://previews.123rf.com/images/blueskyimage/blueskyimage1409/blueskyimage140900211/31468918-gros-plan-portrait-de-jeune-beau-homme-livre-de-lecture-homme-lisant-le-livre-assis-sur-un-canap%C3%A9.jpg" alt="">
+                <h5>25 jan 2022</h5>
+                <h4>Let's Start bring sale on this summer vacation.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error dicta saepe iste officia voluptas eum adipisci sunt officiis! Libero, rerum. Nisi rem tenetur a asperiores corrupti, pariatur quam vitae.
+
+        </p>
+        <h6>Continue Reading...</h6>
+            </div>
+            <div class="cart">
+                <img src=
+                "https://media.istockphoto.com/id/867341470/fr/photo/faire-du-l%C3%A8che-vitrine.jpg?s=612x612&w=0&k=20&c=7Mo7uzKh2bp0Mb-eX5WLEwvOEvb8-9UKPlm6TftxGDg=" alt="">
+                <h5>25 jan 2022</h5>
+                <h4>Let's Start bring sale on this summer vacation.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error dicta saepe iste officia voluptas eum adipisci sunt officiis! Libero, rerum. Nisi rem tenetur a asperiores corrupti, pariatur quam vitae.
+
+        </p>
+        <h6>Continue Reading...</h6>
+            </div>  
+        </div>
+    </section>
+    <!--contact-section-->
+    <section class="contact">
+        <div class="contact-info"> 
+            <div class="first-info">
+                <h1 class="h2">T-ShirtTrove</h1>
+                <br><br><p>3245 Grant Street Longview,<br>
+
+                TX united kingdom 765378</p>
+                <p>01601348732</p>
+                <p>chouk.salma4@gmail.com</p>
+                <div class="social-icon">
+                    <a href="#" ><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                </div>
+            </div>
+            <div class="second-info">
+                <h4>Support</h4>
+                <p>Contact us</p>
+                <p>About page</p>
+                <p>Size Guide</p>
+                <p>Shopping-Resturns</p>
+                <p>Privacy</p>
+
+
+            </div>
+            <div class="third-info">
+<h4>Shop</h4>
+<p>Men's Shopping</p>
+<p>Women's Shopping</p>
+<p>Kid's Shopping</p>
+<p>Furniture</p>
+<p>Discount</p>
+
+            </div>
+    <div class="fourth-info">
+        <h4>company</h4>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Affiliate</p>
+        <p>Login</p>
+ 
+    </div>
+
+    <div class="five">
+        <h4>Subscribe</h4>
+        <p>Receive Updates,Hot Deals,Discounts Sent Straight In Your inpux Daily</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        
+
+        </p>
+        <p>Receive Updates,Hot Deals,Discounts Sent Straight In Your inpux Daily</p>
+    </div>
+        </div>
+
+    </section>
+    <div class="end-text">
+        <p>Copyright @2023.All Rights Reserved.Designd By Saidul Islam.
+        </p>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+
+
+
+
+</html>
